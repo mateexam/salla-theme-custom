@@ -1,4 +1,35 @@
 {
-  "name": "الإعدادات",
-  "settings": []
+  "name": "قسم المقدمة (Hero)",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "صورة الخلفية"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "العنوان الرئيسي",
+      "default": "مرحبًا بكم في MateExam"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "النص الفرعي",
+      "default": "اختبارات رقمية جاهزة للتحميل الفوري"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "نص الزر",
+      "default": "تصفح المنتجات"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "رابط الزر"
+    }
+  ]
 }
+
+add hero section settings
