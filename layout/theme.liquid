@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page_title }}</title>
+  <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+</head>
+<body>
+  {% section 'hero' %}
+
+  {% render 'video-player' %}
+
+  <script src="{{ 'script.js' | asset_url }}"></script>
+</body>
+</html>
+create layout/theme.liquid
