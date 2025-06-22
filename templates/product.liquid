@@ -1,3 +1,8 @@
-<h1>{{ product.title }}</h1>
-<p>{{ product.description }}</p>
-{% render 'video-player' %}
+<div class="product-page">
+  <h1>{{ product.title }}</h1>
+  <div class="product-description">
+    {{ product.description }}
+  </div>
+
+  {% render 'video-player' %}
+</div>
