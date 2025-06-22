@@ -1,0 +1,16 @@
+{
+  "name": "MateExam Theme",
+  "version": "1.0.0",
+  "author": "MateExam",
+  "description": "Custom theme for Salla platform",
+  "settings": [],
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "name": "Hero Section",
+      "limit": 1
+    }
+  }
+}
+
+add theme.json to root
